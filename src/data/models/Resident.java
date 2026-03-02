@@ -3,11 +3,38 @@ package data.models;
 public class Resident {
     private String name;
     private String id;
-    private int password;
-    private String phoneNUmber;
-    public Resident(String name, String id, int password,String phoneNUmber) {
+    private String houseAddress;
+    private String phoneNumber;
 
-
+    public String getId() {
+        return id;
     }
 
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getHouseAddress() {
+        return houseAddress;
+    }
+
+    public void setHouseAddress(String houseAddress) {
+        this.houseAddress = houseAddress;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
 }
